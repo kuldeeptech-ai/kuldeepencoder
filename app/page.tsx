@@ -12,9 +12,9 @@ export default function EncoderDecoder() {
         <Suspense fallback={<CardContent>Loading...</CardContent>}>
           <Base64EncoderDecoderContent />
         </Suspense>
-        <div className="text-center my-2">
-          <a href="https://github.com/paulgb/emoji-encoder" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-800 hover:text-blue-900">Source on GitHub</a>
-        </div>
+        <div style="text-align: center; padding: 20px; color: #666; font-family: Arial, sans-serif; font-size: 14px; border-top: 1px solid #eee; margin-top: 30px;">
+    &copy; 2025 Kuldeep CSC Center. All Rights Reserved.
+</div>
       </Card>
     </div>
   )
